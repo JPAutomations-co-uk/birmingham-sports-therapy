@@ -165,10 +165,10 @@ function StickyNav() {
 
   return (
     <>
-      <nav className={`fixed top-0 left-0 right-0 z-[1000] h-[70px] md:h-[90px] transition-all duration-300 ${scrolled ? "bg-black/70 backdrop-blur-[20px] border-b border-[var(--border)]" : ""}`}>
+      <nav className={`fixed top-0 left-0 right-0 z-[1000] h-[90px] md:h-[130px] transition-all duration-300 ${scrolled ? "bg-black/70 backdrop-blur-[20px] border-b border-[var(--border)]" : ""}`}>
         <div className="max-w-6xl mx-auto px-5 md:px-6 h-full flex items-center justify-between">
           <a href="#" className="z-[1001]">
-            <Image src="/images/logo.png" alt="Birmingham Sports Therapy" width={320} height={80} className="h-14 md:h-20 w-auto" priority />
+            <Image src="/images/logo.png" alt="Birmingham Sports Therapy" width={600} height={150} className="h-[75px] md:h-[110px] w-auto" priority />
           </a>
 
           {/* Desktop */}
