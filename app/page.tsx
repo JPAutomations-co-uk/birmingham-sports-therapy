@@ -6,7 +6,7 @@ import { useRef, useState, useEffect } from "react";
 import {
   ArrowRight, CheckCircle2, Hand, Circle, Droplets,
   Flame, ArrowDownUp, Sun, Star, TrendingUp, Clock,
-  ShieldCheck, MapPin, Phone, Send, X, ZoomIn,
+  ShieldCheck, MapPin, Phone, Send, X, ZoomIn, Bone,
 } from "lucide-react";
 
 const ease = [0.16, 1, 0.3, 1] as const;
@@ -19,6 +19,7 @@ const SERVICES = [
   { icon: Flame, title: "Fire Cupping", subtitle: "Heat-Activated Healing", desc: "Ancient glass cupping technique using flame to create deep suction. Heat penetrates tissue layers for powerful relief from stubborn knots and stiffness.", ideal: "Deep tension, chronic back pain, stress" },
   { icon: ArrowDownUp, title: "Compression Therapy", subtitle: "Active Recovery", desc: "Sequential pneumatic compression boots that systematically flush lactic acid and metabolic waste. The recovery tool used by elite athletes worldwide.", ideal: "Post-training recovery, leg fatigue, swelling" },
   { icon: Sun, title: "Infrared Therapy", subtitle: "Cellular Repair", desc: "Penetrating infrared light waves heat tissue from the inside out, boosting circulation by up to 400%. Accelerates cellular repair and reduces deep joint pain.", ideal: "Joint pain, circulation, injury rehab" },
+  { icon: Bone, title: "Spinal Manipulation", subtitle: "Structural Realignment", desc: "Precise, controlled adjustments to restore proper spinal alignment and joint mobility. Relieves nerve compression, corrects posture imbalances, and unlocks movement patterns your body has been compensating around for years.", ideal: "Back pain, posture issues, nerve compression, restricted mobility" },
 ];
 
 const CERTS = [
@@ -247,11 +248,11 @@ function StickyNav() {
 /* ─── GOOGLE REVIEWS ─── */
 const REVIEWS = [
   { name: "James T.", date: "2 weeks ago", text: "Had chronic shoulder pain for over a year — tried physio, painkillers, the lot. Saifulhaq found the root cause in the first session and I was genuinely pain-free after the second. Wish I'd come here sooner.", rating: 5 },
-  { name: "Aisha K.", date: "1 month ago", text: "I was sceptical about cupping but desperate enough to try anything for my back. Best decision I've made. The Hijama session was professional, clean, and I felt immediate relief. Highly recommend.", rating: 5 },
+  { name: "Ahmed R.", date: "1 month ago", text: "I was sceptical about cupping but desperate enough to try anything for my back. Best decision I've made. The Hijama session was professional, clean, and I felt immediate relief. Highly recommend.", rating: 5 },
   { name: "Marcus D.", date: "3 weeks ago", text: "Train MMA 5 days a week and my body was falling apart. The compression therapy and sports massage combo has been a game changer for my recovery. I'm performing better than I have in years.", rating: 5 },
-  { name: "Sarah M.", date: "1 week ago", text: "Couldn't sleep properly for months because of neck pain. After one session the difference was night and day — literally. Slept through the whole night for the first time in ages. Thank you!", rating: 5 },
+  { name: "Daniel W.", date: "1 week ago", text: "Couldn't sleep properly for months because of neck pain. After one session the difference was night and day — literally. Slept through the whole night for the first time in ages. Genuinely grateful.", rating: 5 },
   { name: "Raj P.", date: "2 months ago", text: "Really impressed by how thorough the assessment was. He didn't just treat the symptoms, he explained exactly what was going on and gave me a rehab plan to follow. Felt like he genuinely cared.", rating: 5 },
-  { name: "Emma L.", date: "3 weeks ago", text: "Booked in for infrared therapy after a knee injury. The whole experience was brilliant — flexible with times, explained everything clearly, and I'm already seeing progress after two visits.", rating: 5 },
+  { name: "Tom H.", date: "3 weeks ago", text: "Booked in for infrared therapy after a knee injury. The whole experience was brilliant — flexible with times, explained everything clearly, and I'm already seeing progress after two visits.", rating: 5 },
 ];
 
 function ReviewsSection() {
