@@ -177,7 +177,7 @@ function StickyNav() {
             <a href="#services" className="text-[15px] text-txt-tertiary hover:text-txt-primary transition-colors tracking-[.08em]">Services</a>
             <a href="#reviews" className="text-[15px] text-txt-tertiary hover:text-txt-primary transition-colors tracking-[.08em]">Reviews</a>
             <a href="#certifications" className="text-[15px] text-txt-tertiary hover:text-txt-primary transition-colors tracking-[.08em]">Credentials</a>
-            <a href="#contact" className="text-[15px] font-semibold bg-accent text-white px-[30px] py-[13px] rounded-lg hover:bg-accent-hover transition-colors tracking-[.08em]">
+            <a href="https://wa.me/447955586565" target="_blank" rel="noopener noreferrer" className="text-[15px] font-semibold bg-accent text-white px-[30px] py-[13px] rounded-lg hover:bg-accent-hover transition-colors tracking-[.08em]">
               BOOK NOW
             </a>
           </div>
@@ -227,7 +227,9 @@ function StickyNav() {
             </div>
             <div className="mt-auto">
               <motion.a
-                href="#contact"
+                href="https://wa.me/447955586565"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setMobileOpen(false)}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -388,7 +390,9 @@ export default function LandingPage() {
 
             <div className="mt-8 flex items-center gap-4">
               <a
-                href="#contact"
+                href="https://wa.me/447955586565"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-accent text-white px-6 py-3 rounded-xl text-sm font-semibold hover:bg-accent-hover transition-colors"
               >
                 Book Free Consultation
@@ -775,7 +779,9 @@ export default function LandingPage() {
             Your body shouldn&apos;t hold you back from the things you love.
           </p>
           <a
-            href="#contact"
+            href="https://wa.me/447955586565"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-accent text-white px-7 py-3.5 rounded-xl text-sm font-semibold hover:bg-accent-hover transition-colors mt-8"
           >
             Book Free Consultation
